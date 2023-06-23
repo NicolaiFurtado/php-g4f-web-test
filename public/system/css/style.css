@@ -1,0 +1,79 @@
+:root {
+    --corPrimaria: #232730;
+    --corSecundaria: #424b5a;
+    --corTercearia: #68758d;
+    --corBranca: #FFFFFF;
+}
+
+body {
+    background-color: var(--corPrimaria);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: white
+}
+
+.pageTitle {
+    padding-top: 50px;
+}
+
+.pageContent {
+    padding-top: 25px;
+    text-align: justify;
+}
+
+.pageActivities {
+    padding-top: 70px;
+    color: white;
+}
+
+.btnChooseActivity {
+    width: 100%;
+    padding: 10px 0 10px 0;
+    background-color: var(--corSecundaria);
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+.btnChooseActivity:hover{
+    background-color: var(--corTercearia);
+}
+
+.returnButton {
+    width: 15%;
+    padding: 10px 0 10px 0;
+    background-color: var(--corSecundaria);
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+.returnButton:hover{
+    background-color: var(--corTercearia);
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.returnActivityAnswer {
+    color: white;
+}
+
+hr{
+    color: white;
+}
+
+.modal-header {
+    background-color: var(--corPrimaria);
+}
+
+input {
+    outline: none;
+}
